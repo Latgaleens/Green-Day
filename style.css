@@ -12,6 +12,8 @@ body {
   }
 
 .main-header {
+    max-width: 100%;
+    min-width: 100%;
     background-image: url("https://www.morrisonhotelgallery.com/images/big/0146_090997_11_15.jpg");
     background-size: cover;
     text-align:center;
