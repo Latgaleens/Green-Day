@@ -1,12 +1,121 @@
+*{
+    color:rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+html.body{
+    margin:10;
+    padding:10;
+}
 
-.body{
-        height: 100%;
-      }
-      .bg {
-        background-image: url("https://jooinn.com/images/denim-black-17.jpg");
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      
+body {
+    background-image: url("https://jooinn.com/images/denim-black-17.jpg");
+  }
+
+.main-header {
+    background-image: url("https://www.morrisonhotelgallery.com/images/big/0146_090997_11_15.jpg");
+    background-size: cover;
+    text-align:center;
+    padding-top:50px;
+    padding-bottom: 50px;
+    background-position: center;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 20px 62px;
+    text-align: center;
+    display: inline-block;
+    font-size: 21px;
+    margin: 1px 1px;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color:black;
+    color: white;
+    border: 2px solid red;
+  }
+  .button2 {
+    background-color:black;
+    color:white;
+    border: 1px solid red;
+  }
+  .button3 {
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+  }
+  .button4 {
+    background-color: black;
+    color:white;
+    border: 1px solid red;
+  }
+  .button5 {
+    background-color: red;
+    color:white;
+    border: 1px solid black;
+  }
+  .button6 {
+    background-color: red;
+    color:white;
+    border: 1px solid black;
+  }
+
+.container0{
+    max-width:1080px;
+    margin: 0 auto;
+    padding: 1.5em;
+    background-color:#FFFFFF55;
+    text-align:center;
+
+}
+.container1{
+    max-width:1080px;
+    margin: 0 auto;
+    padding: 1.5em;
+    background-color:#FFFFFF55;
+    text-align:center;
+}
+
+.container2{
+    max-width:1080px;
+    margin: 0 auto;
+    padding: 1.5em;
+    background-color:#FFFFFF55;
+    text-align:center;
+}
+
+.container3{
+    max-width:1080px;
+    margin: 0 auto;
+    padding: 1.5em;
+    background-color:#FFFFFF55;
+    text-align:center;
+}
+
+.container4{
+    max-width:1080px;
+    margin: 0 auto;
+    padding: 1.5em;
+    background-color:#FFFFFF00;
+    text-align:center;
+}
+
+h1{
+    color:red;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+p{
+    font-size:1.2em;
+}
+
+ul{
+font-size:1.2em;
+}
+
+ol{
+font-size:1.2em;
 }
