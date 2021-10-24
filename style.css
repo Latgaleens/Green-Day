@@ -1,1 +1,16 @@
+*{
+    color:rgb(36, 34, 34);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+html.body{
+    margin:0;
+    padding:0;
+}
 
+.main-header {
+    background-image: url("https://jooinn.com/images/denim-black-17.jpg");
+    background-size: cover;
+    padding-bottom: 150px ;
+    background-position: 50% 20%;
+
+}
