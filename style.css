@@ -130,6 +130,8 @@ h4{
     color:white;
     text-align: center;
     font-size: 1em;
+    margin:1px;
+    display:inline;
 }
 
 p{
