@@ -144,6 +144,8 @@ h6{
   color:#FFFFFF00;
   margin:0;
   padding:0;
+  max-width:0;
+  max-heigh:0;
 }
 
 p{
