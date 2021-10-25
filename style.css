@@ -1,6 +1,5 @@
 *{
-    color:rgb(255, 255, 255);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 html.body{
     margin:10;
@@ -12,9 +11,9 @@ body {
   }
 
 .main-header {
-    max-width: 100%;
-    min-width: 100%;
-    background-image: url("https://www.morrisonhotelgallery.com/images/big/0146_090997_11_15.jpg");
+  max-width: 100%;
+  min-width: 100%;
+  background-image: url("https://www.morrisonhotelgallery.com/images/big/0146_090997_11_15.jpg");
     background-size: cover;
     text-align:center;
     padding-top:50px;
@@ -22,16 +21,17 @@ body {
     background-position: center;
 }
 
-.img {
-  max-width: 100%;
-  min-width: 100%;
-  text-align:center;
+.main-body {
+  max-width:1350px;
+  margin: 0 auto;
+  padding: 1.5em;
+  background-color:#FFFFFF55;  
 }
 
 .button {
     border: none;
     color: white;
-    padding: 20px 62px;
+    padding: 20px 70px;
     text-align: center;
     display: inline-block;
     font-size: 21px;
@@ -43,6 +43,7 @@ body {
     background-color:black;
     color: white;
     border: 2px solid red;
+    
   }
   .button2 {
     background-color:black;
@@ -71,10 +72,10 @@ body {
   }
 
 .container0{
-    max-width:1080px;
+    max-width:1350px;
     margin: 0 auto;
     padding: 1.5em;
-    background-color:#FFFFFF55;
+    background-color:#FFFFFF90;
     text-align:center;
 
 }
@@ -82,7 +83,7 @@ body {
     max-width:1080px;
     margin: 0 auto;
     padding: 1.5em;
-    background-color:#FFFFFF55;
+    background-color:#FFFFFF90;
     text-align:center;
 }
 
@@ -90,7 +91,7 @@ body {
     max-width:1080px;
     margin: 0 auto;
     padding: 1.5em;
-    background-color:#FFFFFF55;
+    background-color:#FFFFFF90;
     text-align:center;
 }
 
@@ -98,7 +99,7 @@ body {
     max-width:1080px;
     margin: 0 auto;
     padding: 1.5em;
-    background-color:#FFFFFF55;
+    background-color:#FFFFFF90;
     text-align:center;
 }
 
@@ -111,28 +112,30 @@ body {
 }
 
 .container5{
-    max-width:1080px;
-    margin: 0 auto;
-    padding: 1.5em;
-    text-align:center;
-    position: relative;
-    position: bottom;
+  position: absolute;
+  top: 420px; right: 90px;
+  max-width: auto;
+  max-height: auto;
+
 }
 
 h1{
     color:red;
     text-align: center;
     font-size: 2.5em;
+    margin: 15px;
 }
 
-h5{
-    color:red;
+h4{
+    color:white;
     text-align: center;
     font-size: 1em;
 }
 
 p{
     font-size:1.2em;
+    text-align: center;
+    color:black;
 }
 
 ul{
@@ -141,4 +144,27 @@ font-size:1.2em;
 
 ol{
 font-size:1.2em;
+}
+
+.frame {
+  width: auto;
+  height: auto;
+  border: 3px solid #ccc;
+  background: #eee;
+  margin: auto;
+  padding: 15px 10px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.frame1 {
+  width: auto;
+  height: 70px;
+  border: 3px solid #ccc;
+  background: #00000080;
+  margin: auto;
+  padding: 1px 1px;
+  
 }
