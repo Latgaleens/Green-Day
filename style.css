@@ -6,7 +6,7 @@ html.body{
     padding:10;
 }
 
-body {
+body{
     background-image: url("https://jooinn.com/images/denim-black-17.jpg");
   }
 
@@ -123,8 +123,7 @@ h1{
     color:red;
     text-align: center;
     font-size: 2.5em;
-    max-width:1080px;
-    background-color:#FFFFFF90;
+    margin: 15px;
    
 }
 
