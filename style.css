@@ -28,6 +28,14 @@ body {
   background-color:#FFFFFF55;  
 }
 
+.main-footer{
+  max-width:1350px;
+  margin: 0 auto;
+  padding: 1.5em;
+  background-color:#FFFFFF90;  
+  text-align:center;
+}
+
 .button {
     border: none;
     color: white;
@@ -109,14 +117,6 @@ body {
     padding: 1.5em;
     background-color:#FFFFFF00;
     text-align:center;
-}
-
-.container5{
-  position: absolute;
-  top: 420px; right: 90px;
-  max-width: auto;
-  max-height: auto;
-
 }
 
 h1{
